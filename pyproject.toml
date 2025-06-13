@@ -36,4 +36,4 @@ Repository = "https://github.com/nzlz/dino-vit-features.git"
 Paper = "https://arxiv.org/abs/2112.05814"
 
 [tool.hatch.build.targets.wheel]
-packages = ["dino_vit_features"] 
+packages = ["dino_vit_features"]
