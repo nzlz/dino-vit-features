@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dino-vit-features"
+version = "0.1.0"
+description = "Deep ViT Features as Dense Visual Descriptors"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "Shir Amir", email = "shir.amir@weizmann.ac.il" },
+    { name = "Yossi Gandelsman", email = "yossi.gandelsman@weizmann.ac.il" },
+    { name = "Shai Bagon", email = "shai.bagon@weizmann.ac.il" },
+    { name = "Tali Dekel", email = "tali.dekel@weizmann.ac.il" }
+]
+dependencies = [
+    "torch>=1.7.0",
+    "torchvision>=0.8.0",
+    "tqdm",
+    "faiss-cpu",
+    "timm",
+    "matplotlib",
+    "opencv-python",
+    "pydensecrf",
+    "scikit-learn",
+]
+
+[project.urls]
+Homepage = "https://github.com/nzlz/dino-vit-features"
+Repository = "https://github.com/nzlz/dino-vit-features.git"
+Paper = "https://arxiv.org/abs/2112.05814" 
