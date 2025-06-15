@@ -7,7 +7,7 @@ name = "dino-vit-features"
 version = "0.1.0"
 description = "Deep ViT Features as Dense Visual Descriptors"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 license = "MIT"
 authors = [
     { name = "Shir Amir", email = "shir.amir@weizmann.ac.il" },
